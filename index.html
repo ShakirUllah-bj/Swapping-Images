@@ -9,12 +9,15 @@
 <body>
     <h1>Swapping Images</h1>
     <div id="gallery">
-        <img src="./images/car1.jpg" alt="car 1">
-        <img src="./images/car2.jpg" alt="car 2">
-        <img src="./images/car3.jpg" alt="car 3">
+        <img src="./images/car1.jpg" alt="car 1" onclick="swapImage(this.src)">
+        <img src="./images/car2.jpg" alt="car 2" onclick="swapImage(this.src)">
+        <img src="./images/car3.jpg" alt="car 3" onclick="swapImage(this.src)">
     </div>
 
     <h3>Selected</h3>
-    <img src="./images/car1.jpg" alt="Selected Image" id="selected">
+
+    <div id="selectedContainer"></div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
